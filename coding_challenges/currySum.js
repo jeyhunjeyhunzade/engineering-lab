@@ -21,4 +21,4 @@ function sum2(a) {
   return inner;
 }
 
-console.log("result of sum2: ", +sum2(1)(2));
+console.log("result of sum2: ", +sum2(1)(2)); // JS asks "what's the number value of inner?" → valueOf() → 6
